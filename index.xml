@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>XuPeng&#39;s Blogs</title>
+    <link>https://helloworldxupeng.github.io/bookshelf/index.xml</link>
+    <description>Recent content on XuPeng&#39;s Blogs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 09 Apr 2017 10:13:23 +0800</lastBuildDate>
+    <atom:link href="https://helloworldxupeng.github.io/bookshelf/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>good to great</title>
+      <link>https://helloworldxupeng.github.io/bookshelf/post/good-to-great/</link>
+      <pubDate>Sun, 09 Apr 2017 10:13:23 +0800</pubDate>
+      
+      <guid>https://helloworldxupeng.github.io/bookshelf/post/good-to-great/</guid>
+      <description>&lt;p&gt;I read &lt;strong&gt;Good to Great in January 2016&lt;/strong&gt;. An awesome read sharing detailed analysis on how good companies became great.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
