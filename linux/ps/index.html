@@ -22,21 +22,21 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/solarized_dark.min.css">
     <title>ps - XuPeng&#39;s Blogs</title>
     
-<meta name="description" content="PS作用 查看进程信息man ps例子 我习惯">
+<meta name="description" content="概况  分类：进程 ps &amp;ndash; process status ps命令是最基础非常强大的进程查看命令。可以用于查看有哪些程序正在运行和运行的状态、进程占用的资源。 ps可以提供进程一次性的查看，可以是使用top工具查看动态状态  常用 查看命令说明 man ps  自己看吧ps mac:~ xupeng$ ps PID TTY TIME CMD 35909 ttys000 0:00.12 -bash 36273 ttys001 0:00.41 -bash 36310 ttys002 0:00.42 -bash 37480 ttys002 8:32.72 hugo server --theme=hugo_theme_robust --buildDrafts 66269 ttys003 0:00.03 -bash  ps -ef mac:~ xupeng$ ps -ef UID PID PPID C STIME TTY TIME CMD 0 1 0 0 五02下午 ?? 8:54.60 /sbin/launchd 0 48 1 0 五02下午 ?">
 
 <meta property="og:title" content="ps - XuPeng&#39;s Blogs">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://helloworldxupeng.github.io/bookshelf/linux/ps/">
 <meta property="og:image" content="https://helloworldxupeng.github.io/bookshelf/images/default.png">
 <meta property="og:site_name" content="XuPeng&#39;s Blogs">
-<meta property="og:description" content="PS作用 查看进程信息man ps例子 我习惯">
+<meta property="og:description" content="概况  分类：进程 ps &amp;ndash; process status ps命令是最基础非常强大的进程查看命令。可以用于查看有哪些程序正在运行和运行的状态、进程占用的资源。 ps可以提供进程一次性的查看，可以是使用top工具查看动态状态  常用 查看命令说明 man ps  自己看吧ps mac:~ xupeng$ ps PID TTY TIME CMD 35909 ttys000 0:00.12 -bash 36273 ttys001 0:00.41 -bash 36310 ttys002 0:00.42 -bash 37480 ttys002 8:32.72 hugo server --theme=hugo_theme_robust --buildDrafts 66269 ttys003 0:00.03 -bash  ps -ef mac:~ xupeng$ ps -ef UID PID PPID C STIME TTY TIME CMD 0 1 0 0 五02下午 ?? 8:54.60 /sbin/launchd 0 48 1 0 五02下午 ?">
 <meta property="og:locale" content="ja_JP">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="XuPeng&#39;s Blogs">
 <meta name="twitter:url" content="https://helloworldxupeng.github.io/bookshelf/linux/ps/">
 <meta name="twitter:title" content="ps - XuPeng&#39;s Blogs">
-<meta name="twitter:description" content="PS作用 查看进程信息man ps例子 我习惯">
+<meta name="twitter:description" content="概况  分类：进程 ps &amp;ndash; process status ps命令是最基础非常强大的进程查看命令。可以用于查看有哪些程序正在运行和运行的状态、进程占用的资源。 ps可以提供进程一次性的查看，可以是使用top工具查看动态状态  常用 查看命令说明 man ps  自己看吧ps mac:~ xupeng$ ps PID TTY TIME CMD 35909 ttys000 0:00.12 -bash 36273 ttys001 0:00.41 -bash 36310 ttys002 0:00.42 -bash 37480 ttys002 8:32.72 hugo server --theme=hugo_theme_robust --buildDrafts 66269 ttys003 0:00.03 -bash  ps -ef mac:~ xupeng$ ps -ef UID PID PPID C STIME TTY TIME CMD 0 1 0 0 五02下午 ?? 8:54.60 /sbin/launchd 0 48 1 0 五02下午 ?">
 <meta name="twitter:image" content="https://helloworldxupeng.github.io/bookshelf/images/default.png">
 
 
@@ -71,10 +71,8 @@
         "height": 60
       }
     },
-    "description": "PS
-作用 查看进程信息
-man ps
-例子 我习惯"
+    "description": "概况  分类：进程 ps &ndash; process status ps命令是最基础非常强大的进程查看命令。可以用于查看有哪些程序正在运行和运行的状态、进程占用的资源。 ps可以提供进程一次性的查看，可以是使用top工具查看动态状态  常用 查看命令说明 man ps  自己看吧
+ps mac:~ xupeng$ ps PID TTY TIME CMD 35909 ttys000 0:00.12 -bash 36273 ttys001 0:00.41 -bash 36310 ttys002 0:00.42 -bash 37480 ttys002 8:32.72 hugo server --theme=hugo_theme_robust --buildDrafts 66269 ttys003 0:00.03 -bash  ps -ef mac:~ xupeng$ ps -ef UID PID PPID C STIME TTY TIME CMD 0 1 0 0 五02下午 ?? 8:54.60 /sbin/launchd 0 48 1 0 五02下午 ?"
   }
 </script>
 
@@ -129,17 +127,72 @@ man ps
 
     <div class="article-body">
 
-<p>PS</p>
+<h2 id="概况">概况</h2>
 
-<h2 id="作用">作用</h2>
+<ul>
+<li>分类：进程</li>
+<li>ps &ndash; process status</li>
+<li>ps命令是最基础非常强大的进程查看命令。可以用于查看有哪些程序正在运行和运行的状态、进程占用的资源。</li>
+<li>ps可以提供进程一次性的查看，可以是使用top工具查看动态状态</li>
+</ul>
 
-<p>查看进程信息</p>
+<h2 id="常用">常用</h2>
 
-<p>man ps</p>
+<h3 id="查看命令说明">查看命令说明</h3>
 
-<h2 id="例子">例子</h2>
+<pre><code>man ps
+</code></pre>
 
-<p>我习惯</p>
+<p>自己看吧</p>
+
+<h3 id="ps">ps</h3>
+
+<pre><code>mac:~ xupeng$ ps
+  PID TTY           TIME CMD
+35909 ttys000    0:00.12 -bash
+36273 ttys001    0:00.41 -bash
+36310 ttys002    0:00.42 -bash
+37480 ttys002    8:32.72 hugo server --theme=hugo_theme_robust --buildDrafts
+66269 ttys003    0:00.03 -bash
+</code></pre>
+
+<h3 id="ps-ef">ps -ef</h3>
+
+<pre><code>mac:~ xupeng$ ps -ef
+  UID   PID  PPID   C STIME   TTY           TIME CMD
+    0     1     0   0 五02下午 ??         8:54.60 /sbin/launchd
+    0    48     1   0 五02下午 ??         0:44.62 /usr/libexec/UserEventAgent (System)
+    0    49     1   0 五02下午 ??         0:17.36 /usr/sbin/syslogd
+    0    51     1   0 五02下午 ??         0:07.87 /System/Library/PrivateFrameworks/Uninstall.framework/Resources/uninstalld
+    0    52     1   0 五02下午 ??         0:10.52 /usr/libexec/kextd
+    0    53     1   0 五02下午 ??         1:15.95 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/FSEvents.framework/Versions/A/Support/fseventsd
+    0    55     1   0 五02下午 ??         0:00.83 /System/Library/PrivateFrameworks/MediaRemote.framework/Support/mediaremoted
+
+</code></pre>
+
+<h3 id="ps-aux">ps aux</h3>
+
+<pre><code>mac:~ xupeng$ ps aux
+USER               PID  %CPU %MEM      VSZ    RSS   TT  STAT STARTED      TIME COMMAND
+_windowserver      200   6.6  1.8  6913372 305408   ??  Ss   五02下午 141:02.11 /System/Library/PrivateFrameworks/SkyLig
+xupeng             342   6.0  1.8  2525988 307060   ??  S    五02下午  44:01.11 /Applications/Microsoft Excel.app/Conten
+xupeng             373   5.1  1.8  7135308 297744   ??  S    五02下午  33:25.58 /System/Library/CoreServices/Finder.app/
+xupeng             337   4.2  1.2  3669708 209324   ??  S    五02下午  24:25.11 /Applications/WizNote.app/Contents/MacOS
+_coreaudiod        210   3.5  0.0  2544720   8280   ??  Ss   五02下午  29:09.97 /usr/sbin/coreaudiod
+root               206   3.3  0.9  3940040 153884   ??  Ss   五02下午   5:26.23 /System/Library/Frameworks/CoreServices.
+xupeng           30730   3.0  2.3  4499356 383800   ??  S     7:09下午  18:54.96 /Applications/爱奇艺.app/Contents/Mac
+xupeng           23664   2.8  1.1  1486148 184128   ??  S     5:36下午   7:57.73 /Applications/EIM.app/Contents/MacOS/EIM
+</code></pre>
+
+<h2 id="action">action</h2>
+
+<h3 id="查看指定进程的信息-然后关闭">查看指定进程的信息,然后关闭</h3>
+
+<pre><code>mac:~ xupeng$ ps -ef|grep 爱奇艺
+  501 30730     1   0  7:09下午 ??        19:20.30 /Applications/爱奇艺.app/Contents/MacOS/爱奇艺
+  501 67338 66269   0 12:31上午 ttys003    0:00.00 grep 爱奇艺
+mac:~ xupeng$ kill 30730
+</code></pre>
 </div>
   </div>
 
